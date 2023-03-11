@@ -472,3 +472,42 @@ a:hover {
         grid-template-columns: 40% 60%;
     }
 }
+
+/* Education */
+.steps {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .card--left {
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .card--right {
+        text-align: right;
+        align-self: flex-end;
+    }
+
+}
+
+/* References */
+.grid__detail {
+    padding-bottom: 7rem;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.grid__detail h4 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.grid__name {
+    text-align: center;
+    padding-bottom: 0;
+}
