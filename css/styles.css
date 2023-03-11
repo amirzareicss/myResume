@@ -275,3 +275,22 @@ a:hover {
 .btn--skill {
     margin: 0 0 2rem 4rem;
 }
+
+/* Lists */
+.list {
+    margin: 0;
+}
+
+.list__item {
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+.list__item:hover {
+    font-weight: 700;
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
