@@ -13,6 +13,427 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-
+    <header>
+        <nav class="nav collapsible">
+            <a class="nav__header" href="/">AMIR</a>
+            <svg class="icon nav__toggler">
+                <use href="images/sprite.svg#menu-1-svgrepo-com"></use>
+            </svg>
+            <ul class="list nav__list collapsible__content">
+                <li class="list__item"><a class="link--nav" href="#about">About</a></li>
+                <li class="list__item"><a class="link--nav" href="#education">Education</a></li>
+                <li class="list__item"><a class="link--nav" href="#work">Work</a></li>
+                <li class="list__item"><a class="link--nav" href="#language">Languages</a></li>
+                <li class="list__item"><a class="link--nav" href="#course">Course</a></li>
+                <li class="list__item"><a class="link--nav" href="#skill">Skills</a></li>
+                <li class="list__item"><a class="link--nav" href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="block block--dark">
+        <div class="container grid grid--1x2">
+            <header class="block__header banner__content">
+                <p class="banner-text text-uppercase" data-aos="fade-right" data-aos-delay="500">Hello!</p>
+                <p class="banner-text" data-aos="fade-right" data-aos-delay="350">I’m</p><h1 data-aos="fade-left" data-aos-delay="550">Amir Hossein Zarei</h1>
+                <h4 data-aos="fade-right" data-aos-delay="450">Web Designer</h4>
+                <div class="banner__icons" data-aos="fade-up" data-aos-delay="650">
+                    <a target="_blank" href="tel:+989177878543">
+                        <span class="icon-container">
+                            <svg class="icon">
+                                <use href="images/sprite.svg#phone-svgrepo-com"></use>
+                            </svg>
+                        </span>
+                    </a>
+                    <a target="_blank" href="https://github.com/amirzareireact">
+                        <span class="icon-container">
+                            <svg class="icon">
+                                <use href="images/sprite.svg#github-square-svgrepo-com"></use>
+                            </svg>
+                        </span>
+                    </a>
+                    <a target="_blank" href="mailto:amirzareireact@gmail.com">
+                        <span class="icon-container">
+                            <svg class="icon">
+                                <use href="images/sprite.svg#email-svgrepo-com"></use>
+                            </svg>
+                        </span>
+                    </a>
+                    <a target="_blank" href="https://instagram.com/web.by.amir?igshid=YmMyMTA2M2Y=">
+                        <span class="icon-container">
+                            <svg class="icon">
+                                <use href="images/sprite.svg#instagram-svgrepo-com"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <button href="#contact-me" class="btn btn--primary"  data-aos="fade-up" data-aos-delay="650">Get in Touch</button>
+            </header>
+            <img class="banner__image" src="/images/avatar.webp" alt="amirhossein zarei"  data-aos="fade-down" data-aos-delay="550">
+        </div>
+    </section>
+    <section class="block block--dark-gradient">
+        <div class="container">
+        </div>
+    </section>
+    <section class="block block--light about__block" id="about">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">About Me</h2>
+        </header>
+        <div class="container grid grid--1x2">
+            <p class="about__text"  data-aos="fade-up" data-aos-delay="550">
+                I am passionate about UI/UX design and Web Design.
+                I am front-end designer student and also IT engineer.
+                I am a quick learner and a team worker that gets the job done.
+            </p>
+            <div class="grid grid--1x2 about__grid" data-aos="fade-up" data-aos-delay="550">
+                <div class="about__col-1">Age</div>
+                <div class="about__col-2">25</div>
+                <div class="about__col-1">Email</div>
+                <div class="about__col-2">amirzareireact@gmail.com</div>
+                <div class="about__col-1">Phone</div>
+                <div class="about__col-2">+98-9177878543</div>
+                <div class="about__col-1">Skype</div>
+                <div class="about__col-2">amirzr9797</div>
+                <div class="about__col-1">Address</div>
+                <div class="about__col-2">Unit1,Maher bldg.,Alley5,Baharan St.,Maaliabad Blvd.,Shiraz,Iran,Postal Code:7187654415</div>
+            </div>
+        </div>
+    </section>
+    <section class="block block--light" id="education">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">Education</h2>
+        </header>
+        <div class="container">
+            <div class="steps">
+                <div class="card card--secondary card--left" data-aos="flip-left" data-aos-delay="600">
+                    <h3 class="card__header">Articulated Bachelor of Computer Engineering, IT</h3>
+                    <div class="card__body">
+                        <h4>Islamic Azad University (Shiraz Branch)</h4>
+                        <p>Jan 2019 to Aug 2022</p>
+                        <p>GPA: 15.72 / 20</p>
+                        <a class="btn btn--secondary education__reference" href="#reference" data-aos="fade-up" data-aos-delay="600">References</a>
+                    </div>
+                </div>
+                <div class="card card--primary card--right" data-aos="flip-right" data-aos-delay="600">
+                    <h3 class="card__header">Pre-University in Mathematic Sciences</h3>
+                    <div class="card__body">
+                        <h4>Kharazmi Pre-University Center</h4>
+                        <p>Sep 2015 - Jun 2016</p>
+                        <p>GPA: 16.64 / 20</p>
+                    </div>
+                </div>
+                <div class="card card--primary card--left" data-aos="flip-left" data-aos-delay="600">
+                    <h3 class="card__header">High School in Experimental Sciences</h3>
+                    <div class="card__body">
+                        <h4>Shahid Dastgheib High School</h4>
+                        <p>Sep 2011 - Jun 2014</p>
+                        <p>GPA: 17.74 / 20</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block block--light" id="reference">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">References</h2>
+        </header>
+        <div class="container grid grid--1x2">
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Amin Tousi</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Chair of Computer Engineering Department</h4>
+                <h4>Islamic Azad University (Shiraz Branch)</h4>
+                <a href="mailto:amin.tousi@iau.ac.ir">amin.tousi@iau.ac.ir</a>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Vahid Saffari</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Faculty of Computer Engineering</h4>
+                <h4>Islamic Azad University (Shiraz Branch)</h4>
+                <a href="mailto:vahid.saffari@iau.ac.ir">vahid.saffari@iau.ac.ir</a>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Iman Badrooh</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Faculty of Computer Engineering</h4>
+                <h4>Islamic Azad University (Shiraz Branch)</h4>
+                <a href="mailto:iman.badrooh@iau.ac.ir">iman.badrooh@iau.ac.ir</a>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Roya Behroozi</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Faculty of Computer Engineering</h4>
+                <h4>Islamic Azad University (Shiraz Branch)</h4>
+                <a href="mailto:roya.behroozi@iau.ac.ir">roya.behroozi@iau.ac.ir</a>
+            </div>
+        </div>
+    </section>
+    <section class="block block--light" id="work">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">Work Experiences</h2>
+        </header>
+        <div class="container">
+            <div class="steps work__steps">
+                    <div class="card card--primary card--left" data-aos="flip-left" data-aos-delay="600">
+                        <h3 class="card__header">Computer Technician (Part-time)</h3>
+                        <div class="card__body">
+                            <h4 class="work__place">APADANA Store</h4>
+                            <p class="work__p">Aug 2021 - Present</p>
+                        </div>
+                    </div>
+                    <div class="card card--primary card--right" data-aos="flip-right" data-aos-delay="600">
+                        <h3 class="card__header">Internship</h3>
+                        <div class="card__body">
+                            <h4 class="work__place">Shiraz Petrochemical</h4>
+                            <p class="work__p">23 Sep 2021 - 30 Nov 2021</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="block block--light" id="language">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">Languages</h2>
+        </header>
+        <div class="container grid grid--1x2">
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Persian</h3>
+            </div>
+            <div class="grid__detail">
+                <p data-aos="fade-up" data-aos-delay="550">Native</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">English</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>IELTS</h4>
+                <p>R: 6.5</p>
+                <p>L: 7.5</p>
+                <p>W: 5.5</p>
+                <p>S: 6.5</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">German</h3>
+            </div>
+            <div class="grid__detail" style="margin-top:1rem" data-aos="fade-up" data-aos-delay="550">
+                <h4>Kish Institute of Science and Technology</h4>
+                <p>A1</p>
+            </div>
+        </div>
+    </section>
+    <section class="block block--primary-gradient" id="course">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">Courses</h2>
+        </header>
+        <div class="container grid grid--1x2">
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Network+ (N10-002)</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>Iranian House of Mine and Industry</p>
+                <p>Dec 2021</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">CCNA (200-120)</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>Iranian House of Mine and Industry</p>
+                <p>Dec 2021</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python Fundamental Programming</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>South Industrial Management Institute</p>
+                <p>Sep 2021</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Learning Python (2020)</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Dec 2021</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python Data Analysis</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2021</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python Essential Training</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python for Data Science Essential Training Part 1</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python for Data Science Essential Training Part 2</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python Statistics Essential Training</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Python for Data Visualization</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Data Science Foundations: Python Scientific Stack</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Master Python for Data Science</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Learning Django</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <p>LinkedIn Learning</p>
+                <p>Jan 2022</p>
+            </div>
+        </div>
+    </section>
+    <section class="block block--primary" id="skill">
+        <header class="block__header">
+            <h2 data-aos="fade-up" data-aos-delay="550">Skills</h2>
+        </header>
+        <div class="container grid grid--1x2">
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">WEB</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>HTML</h4>
+                <h4>CSS</h4>
+                <h4>JavaScript</h4>
+                <h4>PHP</h4>                            
+                <h4>WordPress</h4>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Network</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Network+</h4>
+                <h4>CCNA</h4>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Programming Languages</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Python Object-Oriented</h4>
+                <h4>Java Object-Oriented</h4>
+                <h4>C++</h4>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Operating System</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Microsoft Windows</h4>
+                <h4>macOS</h4>
+                <h4>Linux</h4>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">MS Office</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>Word</h4>
+                <h4>PowerPoint</h4>
+                <h4>Excel</h4>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Machine Learning</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>NumPy Library</h4>
+                <h4>Pandas Library</h4>
+                <h4>Matplotlib Library</h4>
+                <h4>Linear Regression</h4>
+            </div>
+            <div>
+                <h3 class="grid__name" data-aos="fade-up" data-aos-delay="550">Database</h3>
+            </div>
+            <div class="grid__detail" data-aos="fade-up" data-aos-delay="550">
+                <h4>SQL</h4>
+                <h4>PMy SQL</h4>
+            </div>
+        </div>
+    </section>
+    <footer class="block block--dark" id="contact-me">
+        <div class="container grid grid--1x2">
+            <div class="footer__text" data-aos="fade-up" data-aos-delay="550">
+                <div>Let’s talk how I can help you!</div>
+                <div>
+                    <p>If you like my work and want to avail my services then
+                    <p>get in touch using my email, instagram, or my contact number.</p>
+                    <p>See you!</p>
+                </div>
+            </div>
+            <div class="banner__icons footer__icons" data-aos="fade-up" data-aos-delay="550">
+                <a target="_blank" href="tel:+989177878543">
+                    <span class="icon-container">
+                        <svg class="icon">
+                            <use href="images/sprite.svg#phone-svgrepo-com"></use>
+                        </svg>
+                    </span>
+                </a>
+                <a target="_blank" href="https://github.com/amirzareireact">
+                    <span class="icon-container">
+                        <svg class="icon">
+                            <use href="images/sprite.svg#github-square-svgrepo-com"></use>
+                        </svg>
+                    </span>
+                </a>
+                <a target="_blank" href="mailto:amirzareireact@gmail.com">
+                    <span class="icon-container">
+                        <svg class="icon">
+                            <use href="images/sprite.svg#email-svgrepo-com"></use>
+                        </svg>
+                    </span>
+                </a>
+                <a target="_blank" href="https://instagram.com/web.by.amir?igshid=YmMyMTA2M2Y=">
+                    <span class="icon-container">
+                        <svg class="icon">
+                            <use href="images/sprite.svg#instagram-svgrepo-com"></use>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+   </script>
 </body>
 </html>
