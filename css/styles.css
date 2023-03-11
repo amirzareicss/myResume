@@ -264,3 +264,14 @@ a:hover {
 .card__body ul {
     margin-bottom: 1rem;
 }
+
+/* Skills */
+.skill__name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.btn--skill {
+    margin: 0 0 2rem 4rem;
+}
