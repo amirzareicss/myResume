@@ -87,3 +87,34 @@ h4 {
         margin-bottom: 2rem
     }
 }
+
+/* Links */
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    transition: color .5s;
+}
+
+a:hover {
+    color: var(--color-dark);
+    font-weight: 600;
+}
+
+.link--nav {
+    padding: .5rem 1.2rem;
+}
+
+.link--nav:focus {
+    color: var(--bs-primary);
+}
+
+.link--email {
+    color: var(--color-secondary);
+}
+
+.link--email:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-gray);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
