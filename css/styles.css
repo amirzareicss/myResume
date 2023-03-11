@@ -1,0 +1,18 @@
+:root {
+    --color-primary: #d6e8f4;
+    --color-primary-dark: #a1d5f7;
+    --color-secondary: #0d2840;
+    --color-secondary-dark: #0a1d2f;
+    --color-white: #fff;
+    --color-dark: #212529;
+    --color-light: #f4f6f8;
+    --color-gray: #6c757d;
+    --color-light-gray: #d1d3d7;
+    --border-radius: 3rem;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
