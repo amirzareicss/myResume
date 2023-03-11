@@ -511,3 +511,15 @@ a:hover {
     text-align: center;
     padding-bottom: 0;
 }
+
+/* Work */
+@media screen and (min-width:970px) {
+    .work__steps {
+        flex-direction: row;
+    }
+
+    .work__steps .card {
+        margin: 2rem;
+        text-align: center;
+    }
+}
